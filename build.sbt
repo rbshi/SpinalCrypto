@@ -6,7 +6,7 @@ lazy val root = (project in file("."))
     organization := "com.github.spinalhdl",
     version := CryptoVersion.crypto,
     crossScalaVersions := CryptoVersion.scalaCompilers,
-    scalaVersion := CryptoVersion.scalaCompilers(0),
+    scalaVersion := CryptoVersion.scalaCompilers(1),
 
     Compile / scalaSource := baseDirectory.value / "crypto" / "src" / "main",
     Test / scalaSource := baseDirectory.value / "tester" / "src" / "main",
